@@ -1,0 +1,3 @@
+[submodule "librrd-sys/rrdtool-1.x"]
+	path = librrd-sys/rrdtool-1.x
+	url = https://github.com/oetiker/rrdtool-1.x/

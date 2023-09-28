@@ -1,0 +1,12 @@
+[package]
+name = "librrd-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["kaoru <k@warpnine.io>"]
+license = "GPL-2"
+
+[dependencies]
+
+[build-dependencies]
+autotools = "0.2.6"
+bindgen = "0.68.1"

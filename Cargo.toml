@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "librrd-sys",
+]
+resolver = "2"
