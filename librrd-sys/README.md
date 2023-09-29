@@ -15,6 +15,12 @@ A [bindgen](https://rust-lang.github.io/rust-bindgen/) generated wrappers for [l
 $ cargo build
 ```
 
+If you would like to skip building librrd, set `LIBRRD_SYS_SKIP_BUILD` environment variable.
+
+```console
+$ LIBRRD_SYS_SKIP_BUILD=1 cargo build
+```
+
 ## License
 
 GPLv2, as same as RRDtool. See [LICENSE](LICENSE) and also [RRDtool - License](https://oss.oetiker.ch/rrdtool/license.en.html).

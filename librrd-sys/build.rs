@@ -6,7 +6,13 @@ fn main() {
         panic!("not supported")
     }
 
-    // run `bootstrap` script to generate `configure` script
+    // skip build if `LIBRRD_SYS_SKIP_BUILD` is set, useful while developing
+    if let Ok(_) = var("LIBRRD_SYS_SKIP_BUILD") {
+        println!("cargo:warning=skipping build");
+        return;
+    }
+
+    // run `bootstrap` script to generate `configure` script, if the script is not there
     Command::new("sh")
         .current_dir("rrdtool-1.x")
         .arg("-c")
