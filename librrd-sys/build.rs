@@ -25,7 +25,6 @@ fn main() {
         .reconf("-v")
         .cflag("-DSOCK_CLOEXEC=0") // for macOS 13.4.1
         .insource(true)
-        .env("MAKEFLAGS", "-j8")
         .config_option("disable-docs", None)
         .config_option("disable-examples", None)
         .config_option("disable-rrdcached", None)
