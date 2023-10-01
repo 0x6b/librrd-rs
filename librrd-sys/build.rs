@@ -27,7 +27,7 @@ fn main() {
         .insource(true)
         .env("MAKEFLAGS", "-j8")
         .config_option("disable-docs", None)
-        .config_option("disable-example", None)
+        .config_option("disable-examples", None)
         .config_option("disable-rrdcached", None)
         .config_option("disable-rrdcgi", None)
         .config_option("disable-rrd_graph", None)
