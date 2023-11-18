@@ -4,10 +4,9 @@ A [bindgen](https://rust-lang.github.io/rust-bindgen/) generated wrappers for [l
 
 ## Tested Setup
 
-- macOS 14.0 Sonoma
-- Rust 1.72.1
-- other dependencies to build librrd would be required. See
-  [rrdtool-1.x/doc/rrdbuild.pod](https://github.com/oetiker/rrdtool-1.x/blob/master/doc/rrdbuild.pod) if you have any trouble.
+- macOS 14.1.1 Sonoma
+- Rust 1.74.0
+- other dependencies to build librrd would be required. See [rrdtool-1.x/doc/rrdbuild.pod](https://github.com/oetiker/rrdtool-1.x/blob/c1be8ba03ffdd11532f68b4e7411dd77f1255b18/doc/rrdbuild.pod) if you have any trouble.
 
 ## Build
 
